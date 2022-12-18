@@ -35,7 +35,7 @@ export const Skills = () => {
                     <h2>
                         Skills
                     </h2>
-                    <p>Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.</p>
+                    <p>Here is a list of a few of the Languages i am fluent in with others including: Express, Git and Node</p>
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className="item">
                             <img src={meter1} alt='Image' />

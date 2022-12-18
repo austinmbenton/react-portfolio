@@ -47,7 +47,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}>
                         <span className="tagline">Welcome to my Portfolio</span>
                         <h1>{`Hi I'm Austin Benton, I'm a`}<span className="wrap"> {text}</span></h1>
-                        <p>Lorem ipsum began as scrambled, nonsensical Latin derived from Cicero's 1st-century BC text De Finibus Bonorum et Malorum.</p>
+                        <p>Entry Level Fullstack Developer specializing in website design with a focus on React</p>
                        
                     </Col>
                     <Col xs={12} md={6} xl={5}>

@@ -12,7 +12,7 @@ export const Projects = () => {
           title: "Coding Companions",
           description: "Fullstack E-Commerce",
           imgUrl: Coding2,
-          link: ""
+          link: "https://github.com/austinmbenton/Grace-Shopper-Group-3"
         },
         {
           title: "Arcade Project",
@@ -84,7 +84,7 @@ export const Projects = () => {
                     </Col>
                 </Row>
             </Container>
-            <img className="background-imgage-right" src={colorSharp2}></img>
+            <img className="background-imgage-right" src={colorSharp2} alt=''></img>
         </section>
     )
 }

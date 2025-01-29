@@ -8,12 +8,17 @@ export const Navbar = () => {
         <img
           className="mx-2 w-12 h-12 invert brightness-0 "
           src={logo}
-          alt="add logo"
+          alt="logo"
+          draggable="false"
         />
       </div>
       <div className="m-8 flex item-center justify-center gap-4 text 2-xl">
-        <FaGithub />
-        <FaLinkedinIn />
+        <a href="https://github.com/austinmbenton" target="_blank">
+          <FaGithub />
+        </a>
+        <a href="https://www.linkedin.com/in/austinmbenton/" target="_blank">
+          <FaLinkedinIn />
+        </a>
       </div>
     </nav>
   );

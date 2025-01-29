@@ -38,7 +38,7 @@ export const Intro = () => {
               variants={container(1)}
               initial="hidden"
               animate="visible"
-              className="my-2 max-w-xl py-6 font-light tracking-tighter"
+              className="my-2 max-w-xl py-6 font-light tracking-tighter text-neutral-400 lg:text-lg"
             >
               {INTRO_CONTENT}
             </motion.p>

@@ -21,13 +21,26 @@ export const Projects = () => {
               transition={{ duration: 1 }}
               className="w-full lg:w-1/4"
             >
-              <img
-                src={project.image}
-                width={150}
-                height={150}
-                alt={project.title}
-                className="mb-6 rounded"
-              />
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block relative group"
+                style={{ width: "150px", height: "150px" }}
+              >
+                <img
+                  src={project.image}
+                  width={150}
+                  height={150}
+                  alt={project.title}
+                  className="mb-6 rounded"
+                />
+                <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <p className="text-white text-lg font-semibold">
+                    {project.title}
+                  </p>
+                </div>
+              </a>
             </motion.div>
             <motion.div
               whileInView={{ opacity: 1, x: 0 }}

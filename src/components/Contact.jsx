@@ -45,7 +45,7 @@ export const Contact = () => {
         >
           {CONTACT.phoneNo}
         </motion.p>
-        <a href="#" className="border-b">
+        <a href="mailto:ausmicben@gmail.com" className="border-b">
           {CONTACT.email}
         </a>
       </div>

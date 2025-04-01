@@ -50,7 +50,7 @@ export const Skills = () => {
             React
           </motion.div>
         </motion.div>
-        <motion.divdiv
+        <motion.div
           variants={logoDurations(6)}
           initial="initial"
           animate="animate"
@@ -64,7 +64,7 @@ export const Skills = () => {
           >
             Javascript
           </motion.div>
-        </motion.divdiv>
+        </motion.div>
         <motion.div
           variants={logoDurations(3.5)}
           initial="initial"

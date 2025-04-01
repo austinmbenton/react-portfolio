@@ -1,4 +1,4 @@
-import photo from "../assets/jj.png";
+import photo from "../assets/Portfolio_Pic.jpg";
 import { ABOUT_TEXT } from "../constants";
 import { motion } from "framer-motion";
 
@@ -26,7 +26,7 @@ export const About = () => {
           className="w-full lg:w-1/2"
         >
           <div className="flex justify-center lg:justify-start">
-            <p className="my-2 max-w-xl py-6 font-light tracking-tighter text-neutral-400 lg:text-lg">
+            <p className="my-2 max-w-xl py-6 font-light tracking-tighter text-neutral-400 lg:text-lg text-center">
               {ABOUT_TEXT}
             </p>
           </div>
